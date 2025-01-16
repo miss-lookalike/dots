@@ -7,6 +7,9 @@ M.general = {
     -- go to  beginning and end
     ["<C-b>"] = { "<ESC>^i", "Beginning of line" },
     ["<C-e>"] = { "<End>", "End of line" },
+    
+    -- Exit to normal
+    ["kj"] = { "<ESC>", "Normal mode"},
 
     -- navigate within insert mode
     ["<C-h>"] = { "<Left>", "Move left" },
@@ -22,6 +25,7 @@ M.general = {
     ["<C-l>"] = { "<C-w>l", "Window right" },
     ["<C-j>"] = { "<C-w>j", "Window down" },
     ["<C-k>"] = { "<C-w>k", "Window up" },
+    
 
     -- save
     ["<C-s>"] = { "<cmd> w <CR>", "Save file" },

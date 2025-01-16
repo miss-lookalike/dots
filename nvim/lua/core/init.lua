@@ -36,6 +36,10 @@ vim.api.nvim_set_hl(0, 'LineNrAbove', { fg='#74c7ec', bold=true })
 vim.api.nvim_set_hl(0, 'LineNr', { fg='#cdd6f4', bold=true })
 vim.api.nvim_set_hl(0, 'LineNrBelow', { fg='#f38ba8', bold=true })
 
+-- Spell
+opt.spelllang = 'en_gb'
+opt.spell = true
+
 -- disable nvim intro
 opt.shortmess:append "sI"
 
