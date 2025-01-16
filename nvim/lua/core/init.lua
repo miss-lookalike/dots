@@ -28,9 +28,13 @@ opt.smartcase = true
 opt.mouse = "a"
 
 -- Numbers
-opt.number = true
+opt.number = false
+opt.relativenumber = true
 opt.numberwidth = 2
 opt.ruler = false
+vim.api.nvim_set_hl(0, 'LineNrAbove', { fg='#74c7ec', bold=true })
+vim.api.nvim_set_hl(0, 'LineNr', { fg='#cdd6f4', bold=true })
+vim.api.nvim_set_hl(0, 'LineNrBelow', { fg='#f38ba8', bold=true })
 
 -- disable nvim intro
 opt.shortmess:append "sI"

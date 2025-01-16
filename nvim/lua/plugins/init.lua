@@ -227,6 +227,37 @@ local default_plugins = {
       end
     end,
   },
+  
+  {
+    "epwalsh/obsidian.nvim",
+    version = "*",
+    lazy = true,
+    ft = "markdown",
+    
+    opts = {
+      workspaces = {
+        {
+          name = "main_vault",
+          path = "~/main_vault",
+        },
+      },
+      
+      templates = {
+        folder = "04_templates",
+        date_format = "%d-%m-%Y",
+        time_format = "%H:%M",
+      },
+
+      daily_notes = {
+        folder = "03 reviews/4 daily/2025/",
+        template = "daily.md",
+        date_format = "%d-%m-%Y",
+      },
+    
+    },
+  
+  },
+
 
   -- Only load whichkey after all the gui
   {
