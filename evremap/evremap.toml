@@ -1,7 +1,8 @@
 # The name of the device to remap.
 # Run `sudo evremap list-devices` to see the devices available
 # on your system.
-device_name = "ITE Tech. Inc. ITE Device(8176) Keyboard"
+device_name = "ROYUAN Keydous NJ98"
+phys = "usb-0000:08:00.3-6.2/input0"
 
 # If you have multiple devices with the same name, you can optionally
 # specify the `phys` value that is printed by the `list-devices` subcommand
