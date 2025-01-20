@@ -37,3 +37,5 @@ source /home/syd/.config/zsh/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 source ~/.config/zsh/.zsh_alliases
 source ~/.config/zsh/zsh-autosuggestions/zsh-autosuggestions.zsh
 source /usr/share/zsh/plugins/zsh-vi-mode/zsh-vi-mode.plugin.zsh
+source <(fzf --zsh)
+eval "$(zoxide init zsh)"
